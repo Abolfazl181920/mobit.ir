@@ -3,6 +3,8 @@
     "composite": true,
     "skipLibCheck": true,
     "module": "ESNext",
+    // DELETE
+    "allowImportingTsExtensions": true,
     "moduleResolution": "bundler",
     "allowSyntheticDefaultImports": true
   },
