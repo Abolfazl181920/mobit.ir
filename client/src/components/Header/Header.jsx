@@ -5,15 +5,14 @@ import {
 
 const Header = () => {
   return (
-    <div className='h-20 flex w-full bg-red-700'>
-        <div>
+    <div className='h-14 flex-row-reverse flex w-full bg-blue-700'>
+        {/* <div> */}
             <CategoryIcon />
-            <AmazingofferIcon />
+            {/* <AmazingofferIcon />
             <ArticlesnewsIcon />
             <SalerworkIcon />
-            <SearchIcon />
-            <input type="text" placeholder='test' name='test' />
-        </div>
+            <SearchIcon /> */}
+        {/* </div> */}
         <div>
             <UserIcon />
             <ShoppingCart />
