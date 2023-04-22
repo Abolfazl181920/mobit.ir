@@ -5,7 +5,7 @@ import {
 
 const Header = () => {
   return (
-    <div className='h-20 flex w-screen bg-red-700'>
+    <div className='h-20 flex w-full bg-red-700'>
         <div>
             <CategoryIcon />
             <AmazingofferIcon />

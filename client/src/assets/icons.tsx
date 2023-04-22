@@ -5,7 +5,7 @@ export const SearchIcon = () => {
             fill="none" 
             stroke="currentColor" 
             stroke-width="1.5" 
-            viewBox="0 0 24 24" 
+            viewBox="0 0 150 150"
             xmlns="http://www.w3.org/2000/svg"
         >
             <path 
@@ -24,7 +24,7 @@ export const UserIcon = () => {
             fill="none" 
             stroke="currentColor" 
             stroke-width="1.5" 
-            viewBox="0 0 24 24" 
+            viewBox="0 0 150 150"
             xmlns="http://www.w3.org/2000/svg"
         >
             <path 
@@ -43,7 +43,7 @@ export const ShoppingCart = () => {
             fill="none" 
             stroke="currentColor" 
             stroke-width="1.5" 
-            viewBox="0 0 24 24" 
+            viewBox="0 0 150 150"
             xmlns="http://www.w3.org/2000/svg"
         >
             <path 
@@ -63,7 +63,7 @@ export const SalerworkIcon = () => {
             fill="none" 
             stroke="currentColor" 
             stroke-width="1.5" 
-            viewBox="0 0 24 24" 
+            viewBox="0 0 150 150"
             xmlns="http://www.w3.org/2000/svg"
         >
             <path 
@@ -82,7 +82,7 @@ export const ArticlesnewsIcon = () => {
             fill="none" 
             stroke="currentColor" 
             stroke-width="1.5" 
-            viewBox="0 0 24 24" 
+            viewBox="0 0 150 150"
             xmlns="http://www.w3.org/2000/svg"
         >
             <path 
@@ -102,7 +102,7 @@ export const AmazingofferIcon = () => {
             fill="none" 
             stroke="currentColor" 
             stroke-width="1.5" 
-            viewBox="0 0 24 24" 
+            viewBox="0 0 150 150"
             xmlns="http://www.w3.org/2000/svg"
         >
             <path 
@@ -122,7 +122,7 @@ export const CategoryIcon = () => {
             fill="none" 
             stroke="currentColor" 
             stroke-width="1.5" 
-            viewBox="0 0 24 24" 
+            viewBox="0 0 150 150"
             xmlns="http://www.w3.org/2000/svg"
         >
             <path 
@@ -142,7 +142,7 @@ export const ArrowleftIcon = () => {
             fill="none" 
             stroke="currentColor" 
             stroke-width="1.5" 
-            viewBox="0 0 24 24" 
+            viewBox="0 0 150 150"
             xmlns="http://www.w3.org/2000/svg"
         >
             <path 
@@ -162,7 +162,7 @@ export const Arrowright = () => {
             fill="none" 
             stroke="currentColor" 
             stroke-width="1.5" 
-            viewBox="0 0 24 24" 
+            viewBox="0 0 150 150"
             xmlns="http://www.w3.org/2000/svg"
         >
             <path 

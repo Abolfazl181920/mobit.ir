@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 
 const MainRoute = () => {
   return (
-    <div>
+    <div className='w-full'>
         <Router>
             <Routes>
                 <Route path='/' element={ <Page.Home /> } />
