@@ -2,6 +2,7 @@ import {
     SearchIcon, UserIcon, ShoppingCart, SalerworkIcon,
     ArticlesnewsIcon, AmazingofferIcon, CategoryIcon,
 } from '../../assets/icons'
+import { Image } from '../../constants/index'
 
 const Header = () => {
   return (
@@ -13,6 +14,7 @@ const Header = () => {
             <SalerworkIcon />
             <SearchIcon /> */}
         {/* </div> */}
+        
         <div>
             <UserIcon />
             <ShoppingCart />
