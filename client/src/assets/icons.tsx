@@ -6,8 +6,8 @@ export const SearchIcon = () => {
             stroke="#ffffff" 
             strokeWidth="2.5" 
             viewBox="0 0 70 70"
-            height="100px"
-            width="100px"
+            height="55px"
+            width="55px"
             xmlns="http://www.w3.org/2000/svg"
         >
             <path 
@@ -27,8 +27,8 @@ export const UserIcon = () => {
             stroke="#ffffff" 
             strokeWidth="2" 
             viewBox="0 0 75 75"
-            height="100px"
-            width="100px"
+            height="55px"
+            width="55px"
             xmlns="http://www.w3.org/2000/svg"
         >
             <path 
@@ -48,8 +48,8 @@ export const ShoppingCart = () => {
             stroke="#ffffff" 
             strokeWidth="2.5" 
             viewBox="0 0 75 75"
-            height="100px"
-            width="100px"
+            height="55px"
+            width="55px"
             xmlns="http://www.w3.org/2000/svg"
         >
             <path 
@@ -70,8 +70,8 @@ export const SalerworkIcon = () => {
             stroke="#ffffff" 
             strokeWidth="2.5" 
             viewBox="0 0 75 75"
-            height="100px"
-            width="100px"
+            height="55px"
+            width="55px"
             xmlns="http://www.w3.org/2000/svg"
         >
             <path 
@@ -91,8 +91,8 @@ export const ArticlesnewsIcon = () => {
             stroke="#ffffff" 
             strokeWidth="2.5" 
             viewBox="0 0 75 75"
-            height="100px"
-            width="100px"
+            height="55px"
+            width="55px"
             xmlns="http://www.w3.org/2000/svg"
         >
             <path 
@@ -113,8 +113,8 @@ export const AmazingofferIcon = () => {
             stroke="#ffffff" 
             strokeWidth="2.5" 
             viewBox="0 0 75 75"
-            height="100px"
-            width="100px"
+            height="55px"
+            width="55px"
             xmlns="http://www.w3.org/2000/svg"
         >
             <path 
@@ -135,8 +135,8 @@ export const CategoryIcon = () => {
             stroke="#ffffff" 
             strokeWidth="2.5" 
             viewBox="0 0 75 75"
-            height="100px"
-            width="100px"
+            height="55px"
+            width="55px"
             xmlns="http://www.w3.org/2000/svg"
         >
             <path 
@@ -157,8 +157,8 @@ export const ArrowleftIcon = () => {
             stroke="#ffffff" 
             strokeWidth="2.5" 
             viewBox="0 0 75 75"
-            height="100px"
-            width="100px"
+            height="55px"
+            width="55px"
             xmlns="http://www.w3.org/2000/svg"
         >
             <path 
@@ -179,8 +179,8 @@ export const Arrowright = () => {
             stroke="#ffffff" 
             strokeWidth="2.5" 
             viewBox="0 0 75 75"
-            height="100px"
-            width="100px"
+            height="55px"
+            width="55px"
             xmlns="http://www.w3.org/2000/svg"
         >
             <path 
