@@ -5,15 +5,19 @@ import {
 
 const Header = () => {
   return (
-    <div className='h-14 flex flex-row justify-center w-full bg-blue-700'>
-        <CategoryIcon />
-        <AmazingofferIcon />
-        <ArticlesnewsIcon />
-        <SalerworkIcon />
-        <SearchIcon />
-        <UserIcon />
-        <ShoppingCart />
-    </div>
+    <header className='h-14 flex flex-row-reverse justify-center w-full bg-blue-700'>
+        <div className='flex mt-[1.2rem]'>
+			<CategoryIcon />
+			<AmazingofferIcon />
+			<ArticlesnewsIcon />
+			<SalerworkIcon />
+			<SearchIcon />
+		</div>
+		<div className='flex mt-[1.2rem]'>
+			<ShoppingCart />
+			<UserIcon />
+		</div>
+    </header>
   )
 }
 
