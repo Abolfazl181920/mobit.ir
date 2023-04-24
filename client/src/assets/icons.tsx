@@ -171,7 +171,7 @@ export const ArrowleftIcon = () => {
     )
 }
 
-export const Arrowright = () => {
+export const ArrowrightIcon = () => {
     return(
         <svg 
             aria-hidden="true" 
