@@ -1,5 +1,5 @@
 import { 
-    SearchIcon, UserIcon, ShoppingCart, SalerworkIcon,
+    UserIcon, ShoppingCart, SalerworkIcon,
     ArticlesnewsIcon, AmazingofferIcon, CategoryIcon,
 } from '../../assets/icons'
 import SearchInput from './SearchInput'
