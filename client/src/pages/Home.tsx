@@ -8,6 +8,8 @@ const Home = () => {
       <Homecmp.SubNav />
       <Homecmp.OfferBanner />
       <Homecmp.MainBanner />
+      <Homecmp.SecureBanner />
+      <Homecmp.CommercialBanners />
     </div>
   )
 }
