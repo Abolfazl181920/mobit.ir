@@ -7,6 +7,7 @@ const Home = () => {
       <Homecmp.Nav />
       <Homecmp.SubNav />
       <Homecmp.OfferBanner />
+      <Homecmp.MainBanner />
     </div>
   )
 }
