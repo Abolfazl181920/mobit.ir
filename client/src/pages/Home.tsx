@@ -10,6 +10,7 @@ const Home = () => {
       <Homecmp.MainBanner />
       <Homecmp.SecureBanner />
       <Homecmp.CommercialBanners />
+      <Homecmp.TechNews />
     </div>
   )
 }

@@ -5,6 +5,7 @@ import OfferBanner from '../components/offerbanner/OfferBanner'
 import MainBanner from '../components/banners/MainBanner'
 import SecureBanner from '../components/banners/SecureBanner'
 import CommercialBanners from '../components/banners/CommercialBanners'
+import TechNews from '../components/technews/TechNews'
 
 export default {
     Header,
@@ -13,5 +14,6 @@ export default {
     OfferBanner,
     MainBanner,
     SecureBanner,
-    CommercialBanners
+    CommercialBanners,
+    TechNews
 }
