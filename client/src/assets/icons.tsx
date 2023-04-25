@@ -3,7 +3,7 @@ export const SearchIcon = () => {
         <svg 
             aria-hidden="true" 
             fill="none" 
-            stroke="#52B2BF" 
+            stroke="#ffffff" 
             strokeWidth="2.5" 
             viewBox="0 0 70 70"
             height="55px"

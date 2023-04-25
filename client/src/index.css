@@ -32,4 +32,5 @@ body {
   padding: 0;
   display: flex;
   font-family: 'IrSans';
+  box-sizing: border-box;
 }
