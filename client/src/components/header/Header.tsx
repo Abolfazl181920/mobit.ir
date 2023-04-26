@@ -10,28 +10,28 @@ const Header = () => {
         <div className='flex relative font-bold left-[2rem] mt-[1.2rem]'>	
 		<SearchInput />
 			<span className='headeritem'>
-				<span className='iconitem'>
+				<span className='iconitem hover-underline-animation'>
 					همکار و قیمت عمده
 				</span>
 				<SalerworkIcon />
 			</span>
 
 			<span className='headeritem'>
-				<span className='iconitem'>
+				<span className='iconitem hover-underline-animation'>
 					اخبار و مقالات روز
 				</span>
 				<ArticlesnewsIcon />
 			</span>
 
 			<span className='headeritem'>
-				<span className='iconitem'>
+				<span className='iconitem hover-underline-animation'>
 					پیشنهادهای شگفت انگیز
 				</span>
 				<AmazingofferIcon />
 			</span>
 
 			<span className='headeritem'>
-				<span className='iconitem'>
+				<span className='iconitem hover-underline-animation'>
 					دسته بندی
 				</span>
 				<CategoryIcon />
@@ -40,13 +40,13 @@ const Header = () => {
 
 		<div className='headeritem relative right-[4rem] mt-[1.2rem]'>
 			<span className='flex'>
-				<span className='iconitem'>
+				<span className='iconitem hover-underline-animation'>
 					سبد خرید
 				</span>
 				<ShoppingCart />
 			</span>
 			<span className='flex'>
-				<span className='iconitem'>
+				<span className='iconitem hover-underline-animation'>
 					ورود/ ثبت نام
 				</span>
 				<UserIcon />
