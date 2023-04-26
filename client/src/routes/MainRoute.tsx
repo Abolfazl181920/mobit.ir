@@ -7,6 +7,7 @@ const MainRoute = () => {
         <Router>
             <Routes>
                 <Route path='/' element={ <Page.Home /> } />
+                <Route path='/dev' element={ <Page.Dev /> } />
             </Routes>
         </Router>
     </div>
