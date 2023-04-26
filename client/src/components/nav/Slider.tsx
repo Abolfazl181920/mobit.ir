@@ -19,15 +19,30 @@ const Slider = () => {
           clickable: true,
         }}
         navigation
-        modules={[Autoplay, Pagination, Navigation]}
-        className="hero_slider overflow-hidden rounded-xl"
+        modules={[ Autoplay, Pagination, Navigation ]}
+        className="hero_slider overflow-hidden rounded-xl w-[800px]"
       >
-        <SwiperSlide style={{ width: '800px' }}>
-            <div className="aspect-w-4 aspect-h-1 lg:aspect-w-4">
+        <SwiperSlide>
+            <div className="aspect-w-16 aspect-h-9 lg:aspect-w-4 lg:aspect-h-3">
                 <img src={Image.Img52} alt="slide1" />
-                {/* <img src={Image.Img53} alt="slide2" />
+            </div>
+        </SwiperSlide>
+
+		<SwiperSlide>
+            <div className="aspect-w-16 aspect-h-9 lg:aspect-w-4 lg:aspect-h-3">
+                <img src={Image.Img53} alt="slide2" />
+            </div>
+        </SwiperSlide>
+
+		<SwiperSlide>
+            <div className="aspect-w-16 aspect-h-9 lg:aspect-w-4 lg:aspect-h-3">
                 <img src={Image.Img54} alt="slide3" />
-                <img src={Image.Img55} alt="slide4" /> */}
+            </div>
+        </SwiperSlide>
+
+		<SwiperSlide>
+            <div className="aspect-w-16 aspect-h-9 lg:aspect-w-4 lg:aspect-h-3">
+                <img src={Image.Img55} alt="slide4" />
             </div>
         </SwiperSlide>
       </Swiper>
