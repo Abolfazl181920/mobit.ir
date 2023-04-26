@@ -3,6 +3,7 @@ import {
     ArticlesnewsIcon, AmazingofferIcon, CategoryIcon,
 } from '../../assets/icons'
 import SearchInput from './SearchInput'
+import './header.css'
 
 const Header = () => {
   return (
