@@ -1,3 +1,5 @@
+import { useState } from 'react'
+import Modal from '../nav/subnav/Modal'
 import { 
     UserIcon, ShoppingCart, SalerworkIcon,
     ArticlesnewsIcon, AmazingofferIcon, CategoryIcon,
@@ -6,8 +8,14 @@ import SearchInput from './SearchInput'
 import './header.css'
 
 const Header = () => {
+
+	const [ openModal, setOpenModal ] = useState(false)
+
+	const showModal = () => setOpenModal(true)
+	const closeModal = () => setOpenModal(false)
+
 	return (
-		<header className='h-14 flex flex-row-reverse justify-center w-full bg-gradient-to-r from-blue-800 to-transparent to-40% bg-blue-700'>
+		<header className='h-14 flex flex-nowrap flex-row-reverse justify-center w-full bg-gradient-to-r from-blue-800 to-transparent to-40% bg-blue-700'>
 			<div className='flex relative font-bold left-[2rem] mt-[1.2rem]'>	
 			<SearchInput />
 				<span className='headeritem'>
@@ -31,7 +39,7 @@ const Header = () => {
 					<AmazingofferIcon />
 				</span>
 
-				<span className='headeritem'>
+				<span onMouseEnter={showModal} onMouseOut={closeModal} className='headeritem'>
 					<span className='iconitem hover-underline-animation'>
 						دسته بندی
 					</span>
@@ -53,6 +61,10 @@ const Header = () => {
 					<UserIcon />
 				</span>
 			</div>
+
+			{
+				openModal ? <Modal /> : null
+			}
 		</header>
 	)
 }

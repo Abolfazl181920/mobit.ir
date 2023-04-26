@@ -2,8 +2,8 @@ import { Image } from "../../../constants"
 
 const Modal = () => {
     return (
-        <section>
-            <div className="bg-white text-[11.5px] text-gray-600 h-[354px] w-[230px] shadow-2xl rounded-xs flex flex-col items-end mt-10 ml-10">
+        <section className="z-30 absolute right-0 mr-[100px] mt-20">
+            <div className="bg-slate-100 text-[11.2px] text-gray-700 h-[354px] w-[230px] shadow-xl rounded-sm flex flex-col items-end mt-10 ml-10">
                 <span className="modalcats">
                     <img className='modelcategories' src={Image.Tablet} alt="tablet" />
                     <span className="itemstrans">موبایل و تبلت</span>
@@ -39,7 +39,6 @@ const Modal = () => {
                     <span className="itemstrans">کنسول بازی</span>
                 </span>
             </div>
-            <div></div>
         </section>
     )
 }

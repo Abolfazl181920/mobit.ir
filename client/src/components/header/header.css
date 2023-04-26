@@ -2,7 +2,6 @@
     display: inline-block;
     position: relative;
    }
-   
    .hover-underline-animation:after {
     content: '';
     position: absolute;
@@ -15,7 +14,6 @@
     transform-origin: bottom right;
     transition: transform 0.31s ease-out;
    }
-   
    .hover-underline-animation:hover:after {
     transform: scaleX(1);
     transform-origin: bottom right;
