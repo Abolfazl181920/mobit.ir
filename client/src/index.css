@@ -34,3 +34,26 @@ body {
   font-family: 'IrSans';
   box-sizing: border-box;
 }
+
+/* Reusable styles */
+@layer components {
+  .headeritem {
+    @apply flex text-[10px] text-white;
+  }
+
+  .iconitem {
+    @apply mr-3 mt-[.15rem] cursor-pointer;
+  }
+
+  .commerbannerimg {
+    @apply w-72 rounded-xl cursor-pointer;
+  }
+
+  .technewsimg {
+    @apply cursor-pointer w-72 rounded-md;
+  }
+
+  .subnavitem {
+    @apply w-14 cursor-pointer;
+  }
+}

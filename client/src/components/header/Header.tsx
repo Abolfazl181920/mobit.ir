@@ -9,44 +9,44 @@ const Header = () => {
     <header className='h-14 flex flex-row-reverse justify-center w-full bg-gradient-to-r from-blue-800 to-transparent to-40% bg-blue-700'>
         <div className='flex relative font-bold left-[2rem] mt-[1.2rem]'>	
 		<SearchInput />
-			<span className='flex text-[10px] text-white'>
-				<span className='mr-3 mt-[.15rem] cursor-pointer'>
+			<span className='headeritem'>
+				<span className='iconitem'>
 					همکار و قیمت عمده
 				</span>
 				<SalerworkIcon />
 			</span>
 
-			<span className='flex text-[10px] text-white'>
-				<span className='mr-3 mt-[.15rem] cursor-pointer'>
+			<span className='headeritem'>
+				<span className='iconitem'>
 					اخبار و مقالات روز
 				</span>
 				<ArticlesnewsIcon />
 			</span>
 
-			<span className='flex text-[10px] text-white'>
-				<span className='mr-3 mt-[.15rem] cursor-pointer'>
+			<span className='headeritem'>
+				<span className='iconitem'>
 					پیشنهادهای شگفت انگیز
 				</span>
 				<AmazingofferIcon />
 			</span>
 
-			<span className='flex text-[10px] text-white'>
-				<span className='mr-3 mt-[.15rem] cursor-pointer'>
+			<span className='headeritem'>
+				<span className='iconitem'>
 					دسته بندی
 				</span>
 				<CategoryIcon />
 			</span>
 		</div>
 
-		<div className='flex relative text-[10px] right-[4rem] mt-[1.2rem] text-white'>
+		<div className='headeritem relative right-[4rem] mt-[1.2rem]'>
 			<span className='flex'>
-				<span className='mr-3 mt-[.15rem] cursor-pointer'>
+				<span className='iconitem'>
 					سبد خرید
 				</span>
 				<ShoppingCart />
 			</span>
 			<span className='flex'>
-				<span className='mr-3 mt-[.15rem] cursor-pointer'>
+				<span className='iconitem'>
 					ورود/ ثبت نام
 				</span>
 				<UserIcon />

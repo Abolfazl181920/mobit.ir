@@ -3,10 +3,10 @@ import { Image } from "../../constants"
 const CommercialBanners = () => {
   return (
     <div className="flex justify-center flex-row-reverse gap-x-5">
-        <img className="w-72 rounded-xl cursor-pointer" src={Image.Img34} alt="" />
-        <img className="w-72 rounded-xl cursor-pointer" src={Image.Img35} alt="" />
-        <img className="w-72 rounded-xl cursor-pointer" src={Image.Img36} alt="" />
-        <img className="w-72 rounded-xl cursor-pointer" src={Image.Img37} alt="" />
+        <img className="commerbannerimg" src={Image.Img34} alt="firstcommercialimg" />
+        <img className="commerbannerimg" src={Image.Img35} alt="secondcommercialimg" />
+        <img className="commerbannerimg" src={Image.Img36} alt="thirdcommercialimg" />
+        <img className="commerbannerimg" src={Image.Img37} alt="fourthcommercialimg" />
     </div>
   )
 }
