@@ -97,9 +97,13 @@ import Img96 from '../assets/images/96.jpg'
 import Img97 from '../assets/images/97.svg'
 import Img98 from '../assets/images/98.svg'
 import Tablet from '../assets/images/tablet.svg'
+import radio from '../assets/images/radio.svg'
+import machine from '../assets/images/machine.svg'
+import stuffs from '../assets/images/stuffs.webp'
+import console from '../assets/images/console.svg'
 
 export default {
-    Img1, Img2, Img3, Img4, Img5, Img6, Img7, Img8, Img9, Img10,
+    Img1, Img2, Img3, Img4, Img5, Img6, Img7, Img8, Img9, Img10, stuffs,
     Img11, Img12, Img13, Img14, Img15, Img16, Img17, Img18, Img19, Img20,
     Img21, Img22, Img23, Img24, Img25, Img26, Img27, Img28, Img29, Img30,
     Img31, Img32, Img33, Img34, Img35, Img36, Img37, Img38, Img39, Img40,
@@ -107,6 +111,6 @@ export default {
     Img51, Img52, Img53, Img54, Img55, Img56, Img57, Img58, Img59, Img60,
     Img61, Img62, Img63, Img64, Img65, Img66, Img67, Img68, Img69, Img70,
     Img71, Img72, Img73, Img74, Img75, Img76, Img77, Img78, Img79, Img80,
-    Img81, Img82, Img83, Img84, Img85, Img86, Img87, Img88, Img89, Img90,
-    Img91, Img92, Img93, Img94, Img95, Img96, Img97, Img98, Tablet
+    Img81, Img82, Img83, Img84, Img85, Img86, Img87, Img88, Img89, Img90, console,
+    Img91, Img92, Img93, Img94, Img95, Img96, Img97, Img98, Tablet, radio, machine
 }

@@ -1,6 +1,6 @@
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { Autoplay, Pagination, Navigation } from 'swiper'
-import { Image } from '../../constants'
+import { Image } from '../../../constants'
 import 'swiper/css'
 import 'swiper/css/pagination'
 import 'swiper/css/navigation'

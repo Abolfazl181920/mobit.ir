@@ -1,6 +1,10 @@
+import Modal from "../components/nav/subnav/Modal"
+
 const Dev = () => {
   return (
-    <div>Dev</div>
+    <div>
+      <Modal />
+    </div>
   )
 }
 

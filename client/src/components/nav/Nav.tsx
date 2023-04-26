@@ -1,5 +1,5 @@
 import { Image } from '../../constants'
-import Slider from './Slider'
+import Slider from './slider/Slider'
 
 const Nav = () => {
   return (
