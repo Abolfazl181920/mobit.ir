@@ -6,6 +6,7 @@ import MainBanner from '../components/banners/MainBanner'
 import SecureBanner from '../components/banners/SecureBanner'
 import CommercialBanners from '../components/banners/CommercialBanners'
 import TechNews from '../components/technews/TechNews'
+import ScrollTopButton from '../components/scrolltop/ScrollTopButton'
 
 export default {
     Header,
@@ -15,5 +16,6 @@ export default {
     MainBanner,
     SecureBanner,
     CommercialBanners,
-    TechNews
+    TechNews,
+    ScrollTopButton
 }

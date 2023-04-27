@@ -11,6 +11,7 @@ const Home = () => {
       <Homecmp.SecureBanner />
       <Homecmp.CommercialBanners />
       <Homecmp.TechNews />
+      <Homecmp.ScrollTopButton />
     </div>
   )
 }
