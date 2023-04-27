@@ -9,10 +9,10 @@ import './header.css'
 
 const Header = () => {
 
-	const [ openModal, setOpenModal ] = useState(false)
+	const [ openModal, setOpenModal ] = useState<boolean>(true)
 
-	const showModal = () => setOpenModal(true)
-	const closeModal = () => setOpenModal(false)
+	const showModal = (): void => setOpenModal(true)
+	const closeModal = (): void => setOpenModal(false)
 
 	return (
 		<header className='h-14 flex flex-nowrap flex-row-reverse justify-center w-full bg-gradient-to-r from-blue-800 to-transparent to-40% bg-blue-700'>
@@ -39,7 +39,7 @@ const Header = () => {
 					<AmazingofferIcon />
 				</span>
 
-				<span onMouseEnter={showModal} onMouseOut={closeModal} className='headeritem'>
+				<span onMouseEnter={showModal} onMouseLeave={closeModal} className='headeritem'>
 					<span className='iconitem hover-underline-animation'>
 						دسته بندی
 					</span>
@@ -63,7 +63,7 @@ const Header = () => {
 			</div>
 
 			{
-				openModal ? <Modal /> : null
+				openModal && <Modal />
 			}
 		</header>
 	)
