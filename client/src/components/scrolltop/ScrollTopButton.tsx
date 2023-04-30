@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react'
+import { ScrollTopIcon } from '../../assets/icons'
 
 const ScrollTopButton = () => {
 
@@ -28,7 +29,10 @@ const ScrollTopButton = () => {
 
 	return (
 		<div className={`scrollTop flex justify-center mt-8 ${isVisible ? 'show' : ''}`} onClick={handleClick}>
-			<button className="font-extralight cursor-pointer text-sm text-gray-600">بازگشت به بالا</button>
+			<span>
+				<ScrollTopIcon />
+				<button className="font-extralight cursor-pointer text-sm text-gray-600">بازگشت به بالا</button>
+			</span>
 		</div>
 	)
 }
